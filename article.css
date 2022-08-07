@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 }
 
@@ -8,7 +8,11 @@ h1 {
     padding: 10px;
 }
 
-h1, h2, figcaption, p, span {
+h3 {
+    font-size: 14px;
+}
+
+h1, h2, h3, figcaption, p, span {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,24 +20,45 @@ h1, figcaption {
     text-align: center;
 }
 
+h2 {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
 figcaption {
     font-size: 11px;
 }
 
-img{
+img {
     height: auto;
     width: 100%;
+}
+
+.profile-picture {
+    width: 80px;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+} 
+
+.date {
+    float: right;
 }
 
 figure {
     margin: 0;
 }
 
-article {
+.header, article {
     margin-left: auto;
     margin-right: auto;
-    max-width:1000px;
+    max-width: 1000px;
     padding: 20px;
+}
+
+.header {
+    max-height: 30px;
+    margin-bottom: 8px;
 }
 
 p {
